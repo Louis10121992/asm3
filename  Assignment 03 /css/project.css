@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #1d3557;
+}
+.title {
+  color: #0abde3;
+  border-bottom: 2px solid silver;
+}
+.project {
+  width: 90%;
+  margin: auto;
+}
+.Goal {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 38px;
+}
+.col-lg-8 {
+  border: 5px solid#0abde3;
+}
+.col-lg-4 {
+  border: 5px solid#0abde3;
+}
+.Team {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.lead {
+  margin-left: 10px;
+}
+.con {
+  border-radius: 120%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 40px;
+  margin-right: 10px;
+  height: 50%;
+  margin-left: 10px;
+}
+.Team1 {
+  display: flex;
+
+  border-bottom: 1px dotted silver;
+}

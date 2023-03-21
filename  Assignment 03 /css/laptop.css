@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #1d3557;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* Banner */
+.img-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/banner.jpg);
+  height: 100vh;
+
+  position: relative;
+  background-size: cover;
+  color: #fff;
+}
+
+.text-banner {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  color: #ecf0f1;
+  font-size: 24px;
+  text-align: center;
+}
+.text-banner h1 {
+  text-transform: uppercase;
+}
+.text-banner span {
+  color: #bdc3c7;
+}
+/* Nav-Bar */
+#nav-bar a:link,
+a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1d3557;
+  border-left: 2px solid #dfe6e9;
+  padding: 60px 20px 32px;
+}
+#nav-bar a:hover,
+a:active {
+  font-weight: bold;
+  cursor: grab;
+}
+.text-nav {
+  display: inline-block;
+  margin: 10px 70px 0;
+}
+.text-nav h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.text-nav span {
+  color: #bdc3c7;
+}
+.icon {
+  color: #0abde3;
+}
+/* Info*/
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+  line-height: 2;
+  margin-top: 40px;
+}
+li span {
+  font-weight: bold;
+}
+.mt-40 {
+  margin-bottom: 20px;
+}
+.section-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+#personal-info {
+  background-color: #ced4da;
+  font-size: 18px;
+  padding: 40px 30px 100px 50px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+#target {
+  padding: 40px 30px 100px 50px;
+  background-color: #ced4da;
+  font-size: 18px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+/* Job-info */
+.job-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+  align-items: start;
+}
+.job-box-grid {
+  border: 1px solid #bdc3c7;
+  padding: 20px;
+}
+.job-content {
+  grid-column: 1/-1;
+  margin: 30px;
+}
+.job-title {
+  font-size: 18px;
+}
+
+.now {
+  background: #0abde3;
+  padding: 4px 8px;
+  color: #dff1fa;
+  text-align: center;
+  border-radius: 12px;
+}
+.list {
+  position: relative;
+}
+.list1 {
+  position: relative;
+}
+.job-node::before {
+  content: "•";
+  color: #0abde3;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+/* Icon sá»Ÿ thĂ­ch */
+.icon1 {
+  width: 50px;
+  height: 50px;
+  color: #0abde3;
+  border: 2px solid #0abde3;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+/* Good-Bad */
+.Good {
+  background-color: #0abde3;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+.Bad {
+  background-color: #cfcfcf;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+/* Chứng Chỉ*/
+.cer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 30px;
+  width: 1270px;
+}
+.img-cc {
+  width: 240px;
+  margin-right: 10px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.cer-content {
+  display: flex;
+  gap: 20px;
+}
+.cer-content-2 {
+  padding-left: 20px;
+  border-left: 2px solid #d6c08d;
+}
+.cer-content-3 {
+  grid-column: 1/-1;
+  padding-top: 20px;
+  border-top: 2px solid #d6c08d;
+}
+/* Project */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05); */
+}
+.project-title {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-left: 1px solid #bdc3c7;
+  border-right: 1px solid #bdc3c7;
+}
+.project-border {
+  padding: 10px;
+  border-top: 1px solid #bdc3c7;
+  border-left: 1px solid #bdc3c7;
+  border-right: 1px solid #bdc3c7;
+}
+table {
+  border-collapse: collapse;
+  height: 410px;
+}
+td {
+  padding: 20px;
+}
+tr td {
+  width: 100px;
+  vertical-align: top;
+  font-weight: bold;
+}
+tr {
+  border: 1px solid #bdc3c7;
+}
+.project-table tr td:first-child {
+  width: 40%;
+}
+.project-table tr td:nth-child(2) {
+  width: 60%;
+}
+/* Footer */
+#footer {
+  line-height: 1.5;
+  text-align: center;
+}
+#footer a:link,
+a:visited {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #1d3557;
+}
+#footer a:hover,
+a:active {
+  cursor: grab;
+  color: #0abde3;
+}
+/* Nâng cao */
+.avt-default {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ffff;
+}
+.avt-banner {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 70%);
+}
